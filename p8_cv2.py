@@ -1,7 +1,7 @@
 import cv2
 
 # Cargar imagen en escala de grises
-imagen = cv2.imread("imagen.jpg")
+imagen = cv2.imread("imagen.png")
 
 # Verifica si se cargó correctamente
 if imagen is None:
